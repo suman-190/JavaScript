@@ -96,3 +96,52 @@
 // let num3 =30
 
 
+// JavaScript has  primitive Data Type and One non-primitive
+// JavaScript is Dynamically Typed Lanaguage
+
+// String
+// Number
+// Boolean
+// Null
+// undefined
+// Symbol
+// Bigint => if we want to store large number 2 power 53 minus 1
+
+
+// let s1 = "Suman"
+
+// console.log(typeof (s1))
+
+
+// Non primitive Type
+
+// Object
+
+// let ob
+
+let sym = Symbol("hello")
+// A Symbol is a unique and immutable value that is primarily used to create unique object keys
+
+console.log(typeof(sym))
+
+let a = [10,20,30]
+
+console.log(Array.isArray(a))
+
+console.log(a.length)
+
+
+
+
+// Function is Also Object
+
+// function f1(){
+//     console.log("Suman")
+
+// }
+
+
+// f1.x = 10
+// console.log(f1.x)
+
+// console.log(f1 instanceof Object)
