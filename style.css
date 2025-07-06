@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2f5bd4;
+    height: 200vh;
+}
+
+.container{
+    border:2px solid black;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    position: sticky;
+    top: 2px;
+    
+}
+
+.container div {
+    background-color: blueviolet;
+    width:  400px;
+    height: 100px;
+    
+}
+.container div:nth-child(1){
+       background-color: rgb(13, 214, 154);
+       position: sticky;
+       top: 2px;
+}
+
+.container div:nth-child(2){
+       background-color: rgb(13, 214, 154);
+}
+
+.container div:nth-child(3){
+    position: relative;
+    top: 10px;
+}
+
+.container div:nth-child(2){
+    position: absolute;
+    top: 10px;
+}
+
+
+
