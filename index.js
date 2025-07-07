@@ -1,147 +1,144 @@
 
 
+// let userName = prompt("Please enter your name:");
 
-
-
-// Compiled language
-// first Need to compile
-// Ususally don't compile if there is an error in the code 
-// Example=C,C++,Java,Rust
-
-
-// Interpreted language
-// usually go line by line 
-// can run partially if the error comes later
-// Like python, JavaScript 
-
-
-
-// int *p
-// p=(int*) malloc (sizeof(int))
-// free(p)
-
-
-
-// Memeory Management in JavaScript
-// why we need memory management
-// because we have limited resources in our system
-//we don't need to manage memory in JavaScript which is partially true
-
-
+// console.log(userName)
 
 // setTimeout(()=>{
+//    console.log("JavaScript")
+// },3000)
+
+// console.log(5+'5')
+
+
+/**Control Statement */
+
+// Decision Control statements
+
+// if
+// else
+// else if
+// ?:
+// switch
+
+// let num1 = 23
+// if(num1>0){
+//     console.log("Positive")
+
+// }
+// else{
+//     console.log("Negative")
+// }
+
+// let res = num1>0?"Positive":"Negative"
+// console.log("Result",res)
+
+
+// let marks = 45
+
+// if (marks > 90){
+//     console.log("A")
+// }
+
+// else if (marks > 80){}
+
+
+// Switch Case
+
+// let x = 3
+// switch(x){
+//     case 1:
+//         console.log("Case 1")
+//     case 2:
+//         console.log("Case 2")
+//         break    
+//     case 3:
+//         console.log("Case 3") 
+        
+//     case 3:
+//         console.log("Case 3") 
+//     default:
+//         console.log("Invalid")    
+// }
+
+
+
+// Iterative Control Statement
+
+
+// while
+// do while
+// for 
+// for in 
+// for of
+
+
+// let i = 1
+// while(i<=5){
 //     console.log("Hello")
-// },1000)
-
-
-// setInterval(()=>{
-//     console.log("Hello")
-// },1000)
-
-
-
-
-// var a = 5;
-// let b=8
-
-// const c= 10
-
-// d = 40
-
-
-
-
-// a = "Kathmandu"
-
-
-
-// function fun1(){
-//  var x  = 10
-//    y  = 20
-
-//    console.log(x,y)
+//   i++
 // }
 
-// fun1()
-// console.log(x,y)
+// console.log("Outside Loop")
 
 
-
-
-// Var is function scope
-// let is block scope
-
-// function fun2(){
-//     {
-//         var a = 20
-//         let b = 30
-//         console.log(a,b)
-//     }
-
-//     console.log(a,b)
-
-
+// do{
+// console.log("Inside Do while Loop")
 // }
-
-// fun2()
-
-
-
-
-// var num1  = 20
-// var num2  = 30
-
-
-// let num3 = 20
-// let num3 =30
-
-
-// JavaScript has  primitive Data Type and One non-primitive
-// JavaScript is Dynamically Typed Lanaguage
-
-// String
-// Number
-// Boolean
-// Null
-// undefined
-// Symbol
-// Bigint => if we want to store large number 2 power 53 minus 1
-
-
-// let s1 = "Suman"
-
-// console.log(typeof (s1))
-
-
-// Non primitive Type
-
-// Object
-
-// let ob
-
-let sym = Symbol("hello")
-// A Symbol is a unique and immutable value that is primarily used to create unique object keys
-
-console.log(typeof(sym))
-
-let a = [10,20,30]
-
-console.log(Array.isArray(a))
-
-console.log(a.length)
+// while(false)
 
 
 
 
-// Function is Also Object
-
-// function f1(){
-//     console.log("Suman")
-
+// for (let i=1;i<5;i++){
+//     console.log(i)
 // }
 
 
-// f1.x = 10
-// console.log(f1.x)
 
-// console.log(f1 instanceof Object)
+
+// let obj = {
+//     "name":"Devin",
+//     "category":"Ai software Engineer"
+// }
+
+
+// for (a in obj){
+//     console.log(a)
+//     console.log(obj.a)
+//     // This line is incorrect because a is a variable, not a key named "a".
+//     console.log(obj[a])
+// } 
+
+
+// let arr1 = [20,40,40,21,24]
+// for (a of arr1){
+//     console.log(a)
+// }
+
+
+// Jump Statement
+
+
+// let bt1 = document.querySelector('.increment_btn')
+// let bt2 = document.querySelector('.decrement_btn')
+
+// let value = 0
+
+// document.querySelector('.value-container').innerText = value
+
+// bt1.addEventListener("click",()=>{
+//     value++
+//     document.querySelector('.value-container').innerText = value
+// })
+
+// bt2.addEventListener("click",()=>{
+//     value--
+//     document.querySelector('.value-container').innerText = value
+// })
+// console.log(bt1)
+// console.log(bt2)
+
+
+
+

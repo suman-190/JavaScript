@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,6 +45,8 @@ body{
     position: absolute;
     top: 10px;
 }
+ */
 
-
-
+body{
+    background-color: #219ebc;
+}
