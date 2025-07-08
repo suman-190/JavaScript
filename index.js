@@ -118,6 +118,138 @@
 
 
 // Jump Statement
+// break
+// continue
+// return
+
+
+// Array
+
+// const arr1 = [10,20,30,21]
+// arr1[6]=50
+// console.log(arr1)
+// console.log(arr1.length)
+
+// const arr2 = new Array();
+// const arr3 = new Array(3);
+// console.log(arr3)
+
+
+// let ar1  = [2,3,4,5]
+// let ar2 = ar1
+
+
+
+/**
+ * 
+ * Spider-Man (Peter Parker)
+
+Iron Man (Tony Stark)
+
+Captain America (Steve Rogers)
+
+Thor
+
+Hulk 
+
+Black Panther 
+
+Doctor Strange
+
+Scarlet Witch 
+
+Ant-Man 
+
+Wolverine 
+
+Deadpool 
+
+Black Widow 
+Superman 
+
+Batman 
+
+Wonder Woman 
+
+Flash 
+
+Aquaman 
+ */
+
+// const arr1 = ["Batman","Wonder Women","Flash"]
+// // arr1=["Hulk"]
+
+// arr1.concat(["Hulk","Loki"])
+
+
+// const li1 =  [21,20,24,34]
+
+// li1.sort()
+
+// console.log(li1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * JavaScript Code:
+javascript
+Copy
+Edit
+let units = 350; // You can change this to test different values
+let bill = 0;
+
+if (units <= 100) {
+    bill = 0;
+} else if (units <= 200) {
+    bill = (units - 100) * 5;
+} else if (units <= 300) {
+    bill = (100 * 5) + (units - 200) * 7;
+} else {
+    bill = (100 * 5) + (100 * 7) + (units - 300) * 10;
+}
+
+console.log("Units Consumed:", units);
+console.log("Total Bill: ₹" + bill);
+Explanation:
+If units = 350,
+
+First 100 → Free
+
+Next 100 (101–200) → ₹5 × 100 = ₹500
+
+Next 100 (201–300) → ₹7 × 100 = ₹700
+
+Remaining 50 units (301–350) → ₹10 × 50 = ₹500
+👉 Total = 0 + 500 + 700 + 500 = ₹1700
+
+
+ */
+
+
+
+
+
+
+
+
+
+
 
 
 // let bt1 = document.querySelector('.increment_btn')
