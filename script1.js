@@ -334,11 +334,11 @@
 // Array
 
 // let arr1 = []
-let superheros = ["Thor","Wolverrine","WonderWomen","Hulk"]
+// let superheros = ["Thor","Wolverrine","WonderWomen","Hulk"]
 
-superheros[7]="Aquaman"
+// superheros[7]="Aquaman"
 
-console.log(superheros.length)
+// console.log(superheros.length)
 
 // const student = {
 //     name:"Suman",
@@ -385,9 +385,6 @@ console.log(superheros.length)
 // }while()
 
 
-// for (let i=0;i<5;i++){
-//     console.log("Let's End the .............")
-// }
 
 
 
