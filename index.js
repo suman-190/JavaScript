@@ -243,8 +243,79 @@ Remaining 50 units (301–350) → ₹10 × 50 = ₹500
 
 
 
+//  const user ={
+//     name:"Suman",
+//     location:"Kathmandu",
+//     isActive:true
+//  }   
+
+//  user.course = "Python Programming"
+//  user.isActive = false
+
+//  console.log(user)
 
 
+
+// Sum of 100 numbers 
+
+// let ans = 0
+// for (let i=1;i<=100;i++){
+//     console.log(i)
+// }
+
+
+
+// Function
+// A function in JavaScript is a set of statements that performs a task or calculate value it should take some input and resturn some output
+
+
+
+// Find the square of the input
+
+// function square(n){
+//     return n*n
+// }
+
+// // finds the sum of the squares of the inputs
+
+// function sumOfSquare(a,b){
+//     const val1 = square(a)
+//     const val2 = square(b)
+//     return val1 + val2
+// } 
+
+
+
+function square (n){
+    return n*n
+}
+
+
+function cube(n){
+    return n*n*n
+}
+
+function sumOfSquare(a,b){
+    const val1 = square(a)
+    const val2 = square(b)
+    return val1+val2
+} 
+
+function sumOfCube(a,b){
+    const val1 = square(a)
+    const val2 = square(b)
+    return val1 + val2
+} 
+
+
+function sumOfSomething(a,b,fn){
+    const val1 = fn(a)
+    const val2  = fn(b)
+    return val1  + val2
+}
+
+// here fn is callback function
+// or we can say functional argument
 
 
 

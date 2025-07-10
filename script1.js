@@ -331,9 +331,63 @@
 
 
 
+// Array
+
+// let arr1 = []
+let superheros = ["Thor","Wolverrine","WonderWomen","Hulk"]
+
+superheros[7]="Aquaman"
+
+console.log(superheros.length)
+
+// const student = {
+//     name:"Suman",
+//     age:24
+// }
+
+// superheros.push("Black Panther")
+// superheros.pop("Black Panther")
+// superheros.shift()
+
+// console.log(typeof superheros)
+
+// console.log(student["name"])
 
 
 
+
+// Loops
+
+
+// console.log("Hello")
+// console.log("Hello")
+// console.log("Hello")
+// console.log("Hello")
+// console.log("Hello")
+
+// While
+// do while
+// for 
+// for in 
+// for of
+
+// let i=0
+
+// while (i<=5){
+//     console.log("Hellooooo...!")
+//     i++
+//     i=i+1
+// }
+
+
+// do {
+
+// }while()
+
+
+// for (let i=0;i<5;i++){
+//     console.log("Let's End the .............")
+// }
 
 
 
